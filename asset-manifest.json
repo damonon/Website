@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.c17080f1.css",
   "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.55e318cb.js",
-  "main.js.map": "static/js/main.55e318cb.js.map",
+  "main.js": "static/js/main.37becc22.js",
+  "main.js.map": "static/js/main.37becc22.js.map",
   "static/media/OutCast.png": "static/media/OutCast.37c14855.png",
   "static/media/blackshape.png": "static/media/blackshape.953c72d7.png",
   "static/media/envelope-square.svg": "static/media/envelope-square.5a6ce336.svg",
@@ -12,5 +12,6 @@
   "static/media/gmail.svg": "static/media/gmail.529ef392.svg",
   "static/media/instagram.svg": "static/media/instagram.6f7f616f.svg",
   "static/media/linkedin.svg": "static/media/linkedin.e7c76841.svg",
-  "static/media/process.png": "static/media/process.78247497.png"
+  "static/media/process.png": "static/media/process.78247497.png",
+  "static/media/testphoto.jpg": "static/media/testphoto.abb853a5.jpg"
 }
