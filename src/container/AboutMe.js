@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
-import placeholder from '../assets/Placeholder.png';
+import placeholder from '../assets/testphoto.jpg';
 const Container = styled.section`
   padding: 80px 0;
   display: flex;
@@ -26,8 +26,7 @@ const InfoContainer = styled.div`
 
 const Image = styled.img`
     display:block;
-    margin: 1rem;
-    width: 350px;
+    width: 100%;
 
     @media (max-width: 1158px){
         margin: 0 80px;
@@ -45,7 +44,16 @@ const MyInfo = styled.div`
         text-align:center;
     }
 `;
+const MyInfoImage = styled.div`
+    width: 350px;
+    margin: 1rem;
+    display: block;
 
+    @media (max-width: 1158px){
+        width: 550px;
+        text-align:center;
+    }
+`;
 const SubHeader= styled.p`
     margin: 0;
     font-family: 'Quicksand';
@@ -86,6 +94,18 @@ class AboutMe extends Component {
             <Container>
               <Header> Profile</Header>
                 <InfoContainer>
+                <MyInfoImage>
+                    <Image src ={placeholder} alt='placeH'/>
+                </MyInfoImage>
+                <MyInfo>
+                <TitleHeader>About Me</TitleHeader>
+                <Text>
+                Hello World. I am a software developer living in Ottawa, Ontario, Canada. 
+                I spend most of my days working and learning different areas of development and tech. 
+                I am passionate about front end development (JavaScript/jQuery, HTML5, CSS3) with the focus of
+                writing clean, elegant and efficient code.
+                </Text>
+            </MyInfo> 
                 <MyInfo>
                     <TitleHeader>Description</TitleHeader>
                     <SubHeader>Name:</SubHeader>
@@ -93,18 +113,8 @@ class AboutMe extends Component {
                     <SubHeader>Location:</SubHeader>
                     <Text> Ottawa, Ontario Canada</Text>
                     <SubHeader>Curriculum Vitae:</SubHeader>
-                    <CV href='https://drive.google.com/open?id=1AS4Zvj3eV7IdEvvra95XWssVHKf_WyqN' target='_blank'>Click Me To View</CV>
+                    <CV href='https://drive.google.com/file/d/1V40BVU-B8HmQNh1Zpg_zHs6QQjupWTZ4/view?usp=sharing' target='_blank'>Click Me To View</CV>
                 </MyInfo>
-              <Image src ={placeholder} alt='placeH'/>
-                <MyInfo>
-                    <TitleHeader>About Me</TitleHeader>
-                    <Text>
-                    Hello World. I am a software developer living in Ottawa, Ontario, Canada. 
-                    I spend most of my days working and learning different areas of development and tech. 
-                    I am passionate about front end development (JavaScript/jQuery, HTML5, CSS3) with the focus of
-                    writing clean, elegant and efficient code.
-                    </Text>
-                </MyInfo> 
 
                 </InfoContainer>
             </Container>
