@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 import github from '../assets/github-alt.svg';
-import placeholder from '../assets/process.png';
+import slackclone from '../assets/Slackclone.png';
 import outcast from '../assets/OutCast.png';
 import blackshape from '../assets/blackshape.png';
 const Section = styled.section`
@@ -163,10 +163,10 @@ class Works extends Component {
           <UnorderedList>
             <ListItem>
               <CardContainer>
-                <CardImage1 src = {placeholder} alt='placeholder'/>
+                <CardImage1 src = {slackclone} alt='slackclone'/>
                 <CardTextContainer>
-                  <CardTextA href='https://www.github.com/damonon' target='_blank'><img src={github} alt='gitcon'/></CardTextA>
-                  <CardText>Work In Progress</CardText>
+                  <CardTextA href='https://github.com/damonon/SlackClone' target='_blank'><img src={github} alt='gitcon'/></CardTextA>
+                  <CardText>Slack Clone</CardText>
                 </CardTextContainer>
               </CardContainer>
             </ListItem>

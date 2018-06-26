@@ -113,7 +113,7 @@ class AboutMe extends Component {
                     <SubHeader>Location:</SubHeader>
                     <Text> Ottawa, Ontario Canada</Text>
                     <SubHeader>Curriculum Vitae:</SubHeader>
-                    <CV href='https://drive.google.com/file/d/1V40BVU-B8HmQNh1Zpg_zHs6QQjupWTZ4/view?usp=sharing' target='_blank'>Click Me To View</CV>
+                    <CV href='https://drive.google.com/file/d/1T8clFTdSicfGcoQ5jk34CoV5zNNmwM_F/view?usp=sharing' target='_blank'>Click Me To View</CV>
                 </MyInfo>
 
                 </InfoContainer>
